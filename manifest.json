@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Get A Cat Extension",
+  "description": "Open a tab and get a kitty.",
+  "version": "1",
+  "author": "Marina Poltorak",
+  "browser_action": {
+    "title": "Get A Cat",
+    "default_icon": "paw.png",
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": [
+    ]
+  }
+}
